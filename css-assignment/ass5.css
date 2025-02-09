@@ -1,0 +1,166 @@
+/* styles.css */
+body {
+    margin: 0;
+    background-color: #f5f7fa;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.header nav {
+    display: flex;
+    gap: 15px;
+}
+
+.header nav a {
+    text-decoration: none;
+    color: #2c3e50;
+}
+
+.header nav .account-btn {
+    background-color: #007acc;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.content {
+    display: flex;
+    gap: 20px;
+}
+
+.checkout-box {
+    flex: 2;
+    background: white;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.checkout-box h1 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.checkout-box fieldset {
+    border: 1px solid #e0e0e0;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.checkout-box legend {
+    font-weight: bold;
+    padding: 0 5px;
+}
+
+.form-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+input, button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button {
+    background-color: #038e7d;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.checkout-box p {
+    font-size: 0.9rem;
+    text-align: center;
+    color: #666;
+}
+
+.checkout-box p a {
+    color: #007acc;
+    text-decoration: none;
+}
+
+.checkout-box p a:hover {
+    text-decoration: underline;
+}
+
+.pricing-box {
+    flex: 1;
+    background-color: #1179bf;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-box h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.pricing-box .price {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.pricing-box ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    text-align: left;
+}
+
+.pricing-box ul li {
+    margin: 5px 0;
+}
+
+.pricing-box a {
+    color: white;
+    text-decoration: underline;
+}
+
+.note {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    text-align: left;
+}
+
+.note .author {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.footer {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.footer a {
+    color: #007acc;
+    text-decoration: none;
+}
